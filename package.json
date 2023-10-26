@@ -1,0 +1,25 @@
+{
+  "name": "pictures",
+  "version": "1.0.0",
+  "description": "作品：图床",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "push2": "sh pre-push-script.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethan66/pictures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ethan66/pictures/issues"
+  },
+  "homepage": "https://github.com/Ethan66/pictures#readme",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
+}
